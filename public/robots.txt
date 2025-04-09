@@ -1,0 +1,7 @@
+
+    # robots.txt for חנות בגדים אלפא
+    User-agent: *
+    Allow: /
+
+    # Sitemap
+    Sitemap: https://חנות-בגדים-אלפא.com/sitemap.xml
