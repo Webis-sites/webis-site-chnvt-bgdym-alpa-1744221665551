@@ -6,13 +6,15 @@
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
       ],
-      theme: {
-        extend: {
-          colors: {
+      'theme': {
+        'extend': {
+          'colors': {
             primary: '#4ECDC4',
             secondary: '#2c2f30'
-          },
-          backgroundImage: {
+          ,
+        accent: "#FF6B6B"
+      },
+          'backgroundImage': {
             'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             'gradient-conic':
               'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
