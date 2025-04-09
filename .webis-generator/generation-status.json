@@ -1,11 +1,24 @@
 {
-  "timestamp": "2025-04-09T18:01:29.612Z",
+  "timestamp": "2025-04-09T18:06:16.028Z",
   "status": {
-    "totalComponents": 0,
+    "totalComponents": 2,
     "completedComponents": 0,
     "failedComponents": 0,
     "progress": 0
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Header",
+      "type": "header",
+      "status": "pending",
+      "description": "Sticky header with logo, navigation, and mobile menu"
+    },
+    {
+      "name": "Layout",
+      "type": "layout",
+      "status": "pending",
+      "description": "Main layout component with RTL configuration and shared elements"
+    }
+  ],
   "repoName": "webis-site-chnvt-bgdym-alpa-1744221665551"
 }
