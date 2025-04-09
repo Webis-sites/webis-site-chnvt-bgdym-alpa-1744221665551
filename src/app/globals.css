@@ -9,7 +9,13 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #4ECDC4;
       --secondary-color: #2c2f30;
-    }
+    
+  --shadow-neumorphic: 5px 5px 10px rgba(0, 0, 0, 0.05), -5px -5px 10px rgba(255, 255, 255, 0.8);
+  --shadow-neumorphic-pressed: inset 3px 3px 6px rgba(0, 0, 0, 0.1), inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.2);
+  --glass-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  --animation-speed: 0.3s;
+}
 
     html {
       scroll-behavior: smooth;
